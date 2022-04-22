@@ -6,5 +6,5 @@ setuptools.setup(
     description="",
     python_requires=">=3.7",
     install_requires=[],
-    extras_requires={"develop": ["pre-commit~=2.18.1", "pytest~=7.1.1"]},
+    extras_require={"develop": ["pre-commit~=2.18.1", "pytest~=7.1.1"]},
 )

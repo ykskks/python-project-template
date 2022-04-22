@@ -22,8 +22,8 @@ jobs:
         with:
           python-version: ${{ matrix.py-version }}
 
-      - name: Install lightpype
-        run: pip install -e .[develop]
+      - name: Install develop dependencies
+        run: pip install .[develop]
         
       - name: Run test suite
         run: pytest
